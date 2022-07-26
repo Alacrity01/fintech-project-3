@@ -1,4 +1,4 @@
-# Project 3 – Minting and Printing NFT Certificates
+# Project 3 – Minting and Printing NFT Certificates (*Proof of Competency*)
 
 ## Background (*Problem Statement*)
 
@@ -39,5 +39,5 @@ We plan on using the following systems to run our app:
 	- Ganache
 	- Streamlit
 	- Jupyter Lab (?)
-	
+
 	- Initial Imports and Environment tools (pending development)
