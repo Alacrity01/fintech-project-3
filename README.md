@@ -1,4 +1,13 @@
-# Project 3 – Minting and Printing NFT Certificates (*Proof of Competency*)
+
+
+<sub><h3> || <b><i> Project3 </i></b> || </h3></sub> 
+
+# Minting and Printing NFT Certificates: <i>Proof of Competency</i></h1> 
+
+<h3> - <i>A Web3 project by Justin L with Ameira M and Jeff B<i></h3>
+
+---
+
 
 ## Background (*Problem Statement*)
 
