@@ -32,20 +32,16 @@ Certificate IDs in this file can be read for "proof of competency", which grants
 
 ## Resources
 
-
 We plan on using the following systems to run our app:
 
 	- Remix
 	- Ganache
 	- Streamlit
-	- Jupyter Lab (?)
+	- tell.ie
+	- Ethereum wallet (Metamask, Coinbase Wallet)
+	- OpenSea
 
 	- Initial Imports and Environment tools (pending development)
-
-
-
-
-
 
 ## Gated NFT Website Access Readme
 
@@ -60,14 +56,46 @@ While we wanted to incorporate the Token-Gating process with our NFT-generating 
 
 User Experience of accessing NFT-gated website:
 
+Step 1: Obtain website URL and go to site
+
+*Website URL can be public as only certain NFT holders will be able to access the website. 
 
 ![alt=“Picture1”](Images/Picture1.png)
+
+Step 2: Click connect wallet and select the hot wallet where the NFT is stored
+
 ![alt=“Picture2”](Images/Picture2.png)
+
+Step 3: If wallet has the required NFT, access to the website is granted. 
+
+
 ![alt=“Picture3”](Images/Picture3.png)
+
+How this was set up on Tellie:
+
+Step 1: Navigate to Tellie site, click pages, create a webpage. 
+
 ![alt=“Picture4”](Images/Picture4.png)
+
+Step 2: Create a Token Gate
+
 ![alt=“Picture5”](Images/Picture5.png)
+
+Step 3: Name Token Gate and add “+ Hold an NFT” as a requirement to access the webpage. 
+
 ![alt=“Picture6”](Images/Picture6.png)
+
+Step 4: Create NFT via OpenSea, make sure it goes into Metamask Wallet. You will need ETH to mint/send the token.
+
 ![alt=“Picture7”](Images/Picture7.png)
+
+
+Step 5: Copy contract address (clicking hyperlink opens Etherscan, which gives full Contract address). Paste into NFT details. Click save & publish site. 
 ![alt=“Picture8”](Images/Picture8.png)
-![alt=“Picture9”](Images/Picture9.png)
-![alt=“Picture10”](Images/Picture10.png)
+
+
+
+
+
+
+
