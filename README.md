@@ -41,3 +41,33 @@ We plan on using the following systems to run our app:
 	- Jupyter Lab (?)
 
 	- Initial Imports and Environment tools (pending development)
+
+
+
+
+
+
+## Gated NFT Website Access Readme
+
+We used a no-code/low-code product called Tellie to generate a NFT-gated website. The purpose of this is that one must own a certain NFT in their wallet to be able to access the website. There are a variety of use cases for this, including but not limited to:
+
+-	Only allowing credentialled Users to post and comment on a social media site (this was our main use case from part one of our project)
+-	Giving diehard, NFT-holding fans access to a webpage that non-NFT-holding fans don’t have access to.
+-	Limiting access or read/write ability in a DAO
+-	Tickets for in-person or online events – only those holding certain NFT’s or a certain number of tokens will be granted access to the event
+-	Privileged information within a company – Level 1, Level 2, Level 3, etc. Executives, managers, and entry level employees do not have access to the same information. Holding a Level 3 token would allow an employee to see more private company information than holding a Level 1 token. 
+While we wanted to incorporate the Token-Gating process with our NFT-generating process, this stuff is so cutting edge that it’s very difficult to combine them in the short time we had for the project so we broke them off into two separate projects that can eventually be combined. 
+
+User Experience of accessing NFT-gated website:
+
+
+![alt=“Picture1”](Images/Picture1.png)
+![alt=“Picture2”](Images/Picture2.png)
+![alt=“Picture3”](Images/Picture3.png)
+![alt=“Picture4”](Images/Picture4.png)
+![alt=“Picture5”](Images/Picture5.png)
+![alt=“Picture6”](Images/Picture6.png)
+![alt=“Picture7”](Images/Picture7.png)
+![alt=“Picture8”](Images/Picture8.png)
+![alt=“Picture9”](Images/Picture9.png)
+![alt=“Picture10”](Images/Picture10.png)
