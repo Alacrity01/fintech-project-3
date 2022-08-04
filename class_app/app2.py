@@ -12,7 +12,7 @@ from datetime import date
 import streamlit as st
 from streamlit.components.v1 import iframe
 
-
+st.markdown("# Proof of Competency: Basic Math")
 
 # WKHTMLTOPDF_PATH = '/usr/local/bin/wkhtmltopdf'
 
@@ -75,6 +75,7 @@ contract = load_contract()
 #   st.warning('Please input a name.')
 #   st.stop()
 # st.success('Thank you for inputting a name.')
+
 
 
 with st.form("my_form"):
@@ -147,6 +148,8 @@ else:
 env = Environment(loader=FileSystemLoader("."), autoescape=select_autoescape())
 template = env.get_template("template.html")
 
+token_id = "81405704395467559496933594381628460974054685579683453278760615753834800711328"
+
 
 if confirmation == True:
     if st.button("Mint NFT"):
@@ -160,7 +163,6 @@ if confirmation == True:
         ################################################################################
         # Display Certificate
         ################################################################################
-        token_id = "81405704395467559496933594381628460974054685579683453278760615753834800711328"
 
     # submit = form.form_submit_button("Generate PDF")
     # if submit:
@@ -185,34 +187,46 @@ if confirmation == True:
 
 
 
-    html = template.render(
-        subject=certificate_name,
-        # skill="Multiplication",
-        # level = "1",
-        # course="Basic Mathematics",
-        wallet_address=f"{student_account}",
-        date=date.today().strftime("%B %d, %Y"),
-        token_id = token_id
-    )
+        html = template.render(
+            subject=certificate_name,
+            # skill="Multiplication",
+            # level = "1",
+            # course="Basic Mathematics",
+            wallet_address=f"{student_account}",
+            date=date.today().strftime("%B %d, %Y"),
+            token_id = token_id
+        )
 
-    pdf = pdfkit.from_string(html, False)
-    st.balloons()
-
-
-    # generate_pdf(html, WKHTMLTOPDF_PATH, _path)
+        pdf = pdfkit.from_string(html, False)
+        st.balloons()
 
 
-    st.write(f"🎉 Your certificate was generated!")
+        # generate_pdf(html, WKHTMLTOPDF_PATH, _path)
 
 
-    st.write(html, unsafe_allow_html=True)
-    st.write("")
-    st.download_button(
-        "⬇️ Download PDF",
-        data=pdf,
-        file_name="certificate.pdf",
-        mime="application/octet-stream",
-    )
+        st.write(f"🎉 Your certificate was generated!")
+
+
+        st.write(html, unsafe_allow_html=True)
+        st.write("")
+        st.download_button(
+            "⬇️ Download PDF",
+            data=pdf,
+            file_name="certificate.pdf",
+            mime="application/octet-stream",
+        )
+
+        # st.image("../Images/metamask_icon.png",width=45)
+
+        st.markdown("![alt='Picture4'](../Images/metamask_icon.png)")
+        
+
+        st.download_button(
+            "⬇️ Add to Wallet",
+            data=pdf,
+            file_name="certificate.pdf",
+            mime="application/octet-stream",
+        )
 # ################################################################################
 # # PDF Minter
 # ################################################################################
