@@ -135,7 +135,7 @@ if confirmation == True:
         template = templateEnv.get_template(TEMPLATE_FILE)
 
         html = template.render(
-            subject=subject_name,
+            subject_name=subject_name,
             contract_address=contract_address,
             wallet_address=student_account,
             token_id = token_id,
