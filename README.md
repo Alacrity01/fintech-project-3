@@ -8,7 +8,6 @@
 
 ---
 
-
 ## Background (*Problem Statement*)
 
 One of the biggest problems in the world today is misinformation and disinformation. Whether it be Twitter, Facebook, TikTok, Truth Social, or any other social media app, everyone can have a voice in the public square. While freedom of speech is the first amendment to the Constitution, it does not say all speech deserves to be heard by everyone. 
@@ -50,7 +49,13 @@ We plan on using the following systems to run our app:
 	- Ethereum wallet (Metamask, Coinbase Wallet)
 	- OpenSea
 
-	- Initial Imports and Environment tools (pending development)
+	- wkhtmltopdf & pdfkit (packages)
+
+## Streamlit (Prove Your Competency)
+
+A lightweight proof of concept where the quiz is taken and the NFT is minted. A pdf is available for download of the certificate (for fun).
+
+![''](Images/Streamlit/certificate.png)
 
 ## Gated NFT Website Access Readme
 
